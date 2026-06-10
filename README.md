@@ -46,7 +46,7 @@ cd Astrophysics_project
 2. Install the required dependencies:
 
 ```bash
-python -m pip install matplotlib numpy csv random
+python -m pip install matplotlib numpy random
 ```
 3. Run the main application:
 
@@ -60,3 +60,9 @@ or
 python Astrophysics_project_fr.py
 ```
 ---
+
+## Screenshots
+
+<img width="1559" height="1244" alt="image" src="https://github.com/user-attachments/assets/c2f613b2-866c-4653-be2b-fdb8f76f8133" />
+
+<img width="2545" height="1376" alt="image" src="https://github.com/user-attachments/assets/83ec4277-c4f4-46bf-9a9e-0ef829678138" />
