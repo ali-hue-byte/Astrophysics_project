@@ -14,16 +14,24 @@ It was developed as part of an Imperative Programming course in a team of two st
 ### Part 1: Analysis
 - **Data analysis with linear regression**: We used linear regression to find relationships between real astrophysical data and compare them with theoretical predictions. The least squares method was implemented from scratch.
 - **Logarithmic transformation**: To study some power-law relationships, we transformed the data to a logarithmic scale so we can apply linear regression.
-- **Kepler's third law**: Verified the proportionality between the square of the orbital period and the cube of the semi-major axis using data from Jupiter's moons and solar system planets.
+- **Kepler's third law**: Verified the proportionality between the square of the orbital period and the cube of the semi-major axis using data from Jupiter's moons and Solar System planets.
 - **Temperature-distance relationship**: Studied the relationship between exoplanets equilibrium temperature and their distance from their star.
 - **Mass-radius relationship of stars**: Analyzed the relationship between the mass and radius of stars using real stellar data, for both stars more and less massive than the Sun.
 
 ### Part 2: Simulation
-- **Solar system simulation**: Animated simulation of the solar system planets trajectories using verlet integration method and real data from NASA for initial positions and velocities.
+- **Solar System**: Animated simulation of planetary trajectories using Verlet integration method and real NASA ephemeris data for initial positions and velocities.
 - **Random new planets**: Added new planets with random characteristics.
 - **Asteroids**: Added probability of appearance of randomly generated asteroids.
-- **Collision detection**: The program detects collisions between bodies and merges them using the *Conservation of momentum*.
+- **Collision detection**: The program detects collisions between bodies and merges them using the *conservation of linear momentum*.
 
+---
+
+## Technologies
+
+- Python
+- NumPy
+- Matplotlib
+  
 ---
 
 ## Project Structure
@@ -72,7 +80,8 @@ python Astrophysics_project_fr.py
 ---
 
 ## Screenshots
-
+### Temperature–Distance Relationship (Exoplanets)
 <img width="1559" height="1244" alt="image" src="https://github.com/user-attachments/assets/c2f613b2-866c-4653-be2b-fdb8f76f8133" />
 
+### Solar System N-body Simulation
 <img width="2545" height="1376" alt="image" src="https://github.com/user-attachments/assets/83ec4277-c4f4-46bf-9a9e-0ef829678138" />
