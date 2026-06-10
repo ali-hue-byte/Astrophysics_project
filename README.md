@@ -2,8 +2,12 @@
 
 
 ## Description
-Have you ever heard of astrophysics? Probably yes. It is one of the most amazing and challenging fields of science, combining physics and astronomy to study the universe and its celestial bodies.
-This project was developed as part of the *Imperative Programming* course at university, in a team of two students. We used Python to analyze real data using linear regression to understand some fundamental laws of astrophysics. We also created a simulation of the Solar System to visualize its behavior and functionality.
+This project analyzes astrophysical data and simulates the motion of celestial bodies using numerical methods.
+
+It was developed as part of an Imperative Programming course in a team of two students using Python. The project includes:
+- Statistical analysis of real astrophysical datasets
+- Verification of physical laws (Kepler’s laws, power-law relations)
+- A 2D N-body simulation of the Solar System using the Verlet integration method
 
 ## Features
 
@@ -24,14 +28,19 @@ This project was developed as part of the *Imperative Programming* course at uni
 
 ## Project Structure
 
-- **Astrophysics_project_en.py**: Contains project code with english comments
-- **Astrophysics_project_fr.py**: Contains project code with french comments
-- **Project_Report_en**: Explains project parts,  architecture, laws studied in english
-- **Rapport_Projet_fr**: Explains project parts,  architecture, laws studied in french
-- **Stars.csv**: Dataset of stellar measurements.
-- **Solar_System_data**: Physical and orbital properties of the Solar System planets.
-- **Jupiter_Moons**: Orbital and physical characteristics of Jupiter's moons.
-- **Exoplanets**: Catalog of exoplanets and their observed properties.
+### Python files
+- **Astrophysics_project_en.py**: Main program (analysis + simulation, English comments)
+- **Astrophysics_project_fr.py**: Same program with French comments
+
+### Reports
+- **Project_Report_en**: Full explanation of methods, physics laws, and architecture (English)
+- **Rapport_Projet_fr**: Same report in French
+
+### Datasets
+- **Stars.csv**: Stellar mass and radius data used for mass–radius relation study
+- **Solar_System_data.csv**: Orbital data of Solar System planets (Kepler’s law analysis)
+- **Jupiter_Moons.csv**: Orbital parameters of Jupiter’s moons
+- **Exoplanets.csv**: Exoplanet catalog used for temperature–distance study
 
 ---
 
@@ -46,9 +55,10 @@ cd Astrophysics_project
 2. Install the required dependencies:
 
 ```bash
-python -m pip install matplotlib numpy random
+pip install -r requirements.txt
 ```
 3. Run the main application:
+Make sure you run the script from the project root directory so that all datasets can be accessed correctly.
 
 ```bash
 python Astrophysics_project_en.py
