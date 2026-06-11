@@ -45,7 +45,7 @@ It was developed as part of an Imperative Programming course in a team of two st
 - **Rapport_Projet_fr**: Same report in French
 
 ### Datasets
-- **Stars.csv**: Stellar mass and radius data used for mass–radius relation study
+- **Stars.csv**: Stellar data used for mass–radius relation study
 - **Solar_System_data.csv**: Orbital data of Solar System planets (Kepler’s law analysis)
 - **Jupiter_Moons.csv**: Orbital parameters of Jupiter’s moons
 - **Exoplanets.csv**: Exoplanet catalog used for temperature–distance study
